@@ -8,6 +8,6 @@ public class PublicResource {
 
 	@GetMapping(path="/source")
 	public String getSource() {
-		return "source git public";	
+		return "https://github.com/luisfj";	
 	}
 }
